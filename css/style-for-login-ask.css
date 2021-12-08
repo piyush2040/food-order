@@ -6,3 +6,25 @@ body
     background-attachment: scroll;
     text-align: center;
 }
+.for-margin
+{
+    margin-top: 17%;
+}
+.mat > a
+{
+    font-size: 40px;
+    color: white;
+}
+.mat > a:hover
+{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 60px;
+    text-shadow: 3px 3px rgb(144, 228, 207);
+    transition-duration: .5s;
+}
+.mat
+{
+    margin: 15px;
+}
