@@ -1,0 +1,43 @@
+html
+{
+    font-size:small;
+}
+body
+{
+    margin: 0 auto;
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.panel_title
+{
+    text-align: center;
+    font-size: 250%;
+    font-family: cursive;
+    font-style:inherit;
+    font-weight:revert;
+}
+.panel-transparent
+{
+    background: none;
+    background: rgba(0, 0, 0, 0.01)!important;
+    border: rgba(0, 0, 0, 0.01);
+}
+.panel-transparent .panel-heading{
+    background: rgba(0, 0, 0, 0.01)!important;
+    border: rgba(0, 0, 0, 0.01);
+}
+
+.panel-transparent .panel-body{
+    background: rgba(0,0,0, 0.01)!important;
+    border: rgba(0, 0, 0, 0.01);
+}
+.input-transparent
+{
+    background-color:rgba(0,0,0,0) !important;
+}
+.panel-footer-modified
+{
+    background-color:rgba(0,0,0,0) !important;
+    
+}
