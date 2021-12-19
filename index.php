@@ -18,7 +18,7 @@ require "connection/common.php";
 <!--from here starts heading-->
 <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand logo" href="index.php">Food-order</a>
-<a class="cust-profile" href="cust-profile.php">Piyush Kumar</a>
+<a class="cust-profile" href="login-ask.php">login</a>
 </nav>
 <p id="punch-line">Discover the best resturant food in your city</p>
 <div class="search-box">
