@@ -29,10 +29,13 @@
                 <input type="password" class="form-control input-transparent" name="password" placeholder="Password" required>
             </div>
             <div class="form-group">
-                <input type="number" class="form-control input-transparent" name="contact" placeholder="Contact" required>
+                <input type="number" class="form-control input-transparent" name="contact" placeholder="mobile-number" required>
             </div>
             <div class="form-group">
                 <input type="text" class="form-control input-transparent" name="city" placeholder="City" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control input-transparent" name="state" placeholder="State" required>
             </div>
             <div class="form-group">
                 <input type="text" class="form-control input-transparent" name="address" placeholder="Address" required>

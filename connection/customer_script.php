@@ -7,10 +7,11 @@
     $contact = mysqli_real_escape_string($conn, $_POST["contact"]);
     $city = mysqli_real_escape_string($conn, $_POST["city"]);
     $address = mysqli_real_escape_string($conn, $_POST["address"]);
+    $state = mysqli_real_escape_string($conn, $_POST["state"]);
     // hash password
     $hashed_password = md5($password);
     $query1 = "SELECT id FROM customer_details WHERE email = '$email' AND password = '$hashed_password'";
-    $query2 = "INSERT INTO customer_details (name, email, password, contact, city, address) VALUES ('$name', '$email', '$hashed_password', '$contact', '$city', '$address')";
+    $query2 = "INSERT INTO customer_details (`name`, `email`,`address`,`city`,`state`,`password`,`contact`) VALUES ('$name', '$email','$address','$city','$state','$hashed_password', '$contact')";
 
     // check if already registered user
     $result = mysqli_query($conn, $query1);
@@ -24,6 +25,6 @@
         $_SESSION["id"] = mysqli_insert_id($conn);
 
         // redirect to products page
-        header("location: products.php");
+        header("location: ../homePageCustomer.php");
     }
 ?>
